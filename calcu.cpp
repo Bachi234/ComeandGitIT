@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-	cout << "Bruh";
-    int firstNumber, secondNumber, sumOfTwoNumbers,diff;
+	cout << "Bruh\n";
+    int firstNumber, secondNumber, sumOfTwoNumbers,diff,mul,quo;
     
     cout << "Enter first number: ";
     cin >> firstNumber;
@@ -12,11 +12,15 @@ int main()
     cout << "Enter second number: ";
     cin >> secondNumber;
 
-    // sum of two numbers is stored in variable sumOfTwoNumbers
+   	//
     sumOfTwoNumbers = firstNumber + secondNumber;
 	diff = firstNumber - secondNumber;
-    // Prints sum 
+	mul = firstNumber * secondNumber;
+	quo = firstNumber / secondNumber;
+    
     cout << endl << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
 	cout << endl << firstNumber << " - " <<  secondNumber << " = " << diff; 
+	cout << endl << firstNumber << " * " <<  secondNumber << " = " << mul; 
+	cout << endl << firstNumber << " * " <<  secondNumber << " = " << quo;
     return 0;
 }
