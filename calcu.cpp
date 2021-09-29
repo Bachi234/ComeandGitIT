@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-	cout << "Bruh\n";
+	cout << "Awit na calculator\n"
+		<<"---------------------\n";
     int firstNumber, secondNumber, sumOfTwoNumbers,diff,mul,quo,rem;
    
     cout << "Enter first number: ";
