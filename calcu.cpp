@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 	cout << "Bruh\n";
-    int firstNumber, secondNumber, sumOfTwoNumbers,diff,mul,quo;
-    
+    int firstNumber, secondNumber, sumOfTwoNumbers,diff,mul,quo,rem;
+   
     cout << "Enter first number: ";
     cin >> firstNumber;
     
@@ -17,10 +17,13 @@ int main()
 	diff = firstNumber - secondNumber;
 	mul = firstNumber * secondNumber;
 	quo = firstNumber / secondNumber;
+	rem = firstNumber % secondNumber;
     
     cout << endl << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;     
 	cout << endl << firstNumber << " - " <<  secondNumber << " = " << diff; 
 	cout << endl << firstNumber << " * " <<  secondNumber << " = " << mul; 
-	cout << endl << firstNumber << " * " <<  secondNumber << " = " << quo;
+	cout << endl << firstNumber << " / " <<  secondNumber << " = " << quo;
+	cout << endl << firstNumber << " % " <<  secondNumber << " = " << rem;
+	
     return 0;
 }
